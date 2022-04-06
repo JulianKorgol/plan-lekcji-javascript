@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;1,100;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Plan lekcji</title>
+</head>
+<body>
+    <div class="header">
+        <h1>TechniSchools | <span>Plan lekcji</span></h1>
+        <select id="selectedDay" onchange="changePlan()">
+            <option value="1">Poniedziałek</option>
+            <option value="2">Wtorek</option>
+            <option value="3">Środa</option>
+            <option value="4">Czwartek</option>
+            <option value="5">Piątek</option>
+        </select>
+    </div>
+    <div class="content">
+        <div class="col">
+            <ul class="list-1">
+                <li>Lekcja 1-1</li>
+                <li>Lekcja 1-2</li>
+                <li>Lekcja 1-3</li>
+                <li>Lekcja 1-4</li>
+                <li>Lekcja 1-5</li>
+                <li>Lekcja 1-6</li>
+                <li>Lekcja 1-7</li>
+                <li>Lekcja 1-8</li>
+            </ul>
+            <ul class="list-2">
+                <li>Lekcja 2-1</li>
+                <li>Lekcja 2-2</li>
+                <li>Lekcja 2-3</li>
+                <li>Lekcja 2-4</li>
+                <li>Lekcja 2-5</li>
+                <li>Lekcja 2-6</li>
+                <li>Lekcja 2-7</li>
+                <li>Lekcja 2-8</li>
+            </ul>
+            <ul class="list-3">
+                <li>Lekcja 3-1</li>
+                <li>Lekcja 3-2</li>
+                <li>Lekcja 3-3</li>
+                <li>Lekcja 3-4</li>
+                <li>Lekcja 3-5</li>
+                <li>Lekcja 3-6</li>
+                <li>Lekcja 3-7</li>
+                <li>Lekcja 3-8</li>
+            </ul>
+            <ul class="list-4">
+                <li>Lekcja 4-1</li>
+                <li>Lekcja 4-2</li>
+                <li>Lekcja 4-3</li>
+                <li>Lekcja 4-4</li>
+                <li>Lekcja 4-5</li>
+                <li>Lekcja 4-6</li>
+                <li>Lekcja 4-7</li>
+                <li>Lekcja 4-8</li>
+            </ul>
+            <ul class="list-5">
+                <li>Lekcja 5-1</li>
+                <li>Lekcja 5-2</li>
+                <li>Lekcja 5-3</li>
+                <li>Lekcja 5-4</li>
+                <li>Lekcja 5-5</li>
+                <li>Lekcja 5-6</li>
+                <li>Lekcja 5-7</li>
+                <li>Lekcja 5-8</li>
+            </ul>
+        </div>
+        <div class="col clock">
+            <p id="date">Środa (2021-11-03)</p>
+            <p id="clock">15:24</p>
+            <p id="weekend">Weekend?</p>
+            <p id="lesson">Do końca lekcji zostało...</p>
+            <p id="czasDoKonca">Czas do końca.</p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
